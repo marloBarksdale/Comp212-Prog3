@@ -1,0 +1,15 @@
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Question2\bin\Debug\net8.0\Question2.exe
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Question2\bin\Debug\net8.0\Question2.deps.json
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Question2\bin\Debug\net8.0\Question2.runtimeconfig.json
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Question2\bin\Debug\net8.0\Question2.dll
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Question2\bin\Debug\net8.0\Question2.pdb
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Question2\obj\Debug\net8.0\Question2.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Question2\obj\Debug\net8.0\Question2.AssemblyInfoInputs.cache
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Question2\obj\Debug\net8.0\Question2.AssemblyInfo.cs
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Question2\obj\Debug\net8.0\Question2.csproj.CoreCompileInputs.cache
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Question2\obj\Debug\net8.0\Question2.dll
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Question2\obj\Debug\net8.0\refint\Question2.dll
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Question2\obj\Debug\net8.0\Question2.pdb
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Question2\obj\Debug\net8.0\Question2.genruntimeconfig.cache
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Question2\obj\Debug\net8.0\ref\Question2.dll
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Question2\bin\Debug\net8.0\Medals.csv

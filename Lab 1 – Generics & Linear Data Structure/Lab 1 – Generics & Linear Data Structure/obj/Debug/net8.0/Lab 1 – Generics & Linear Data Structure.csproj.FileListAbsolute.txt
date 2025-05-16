@@ -1,0 +1,15 @@
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Lab 1 – Generics & Linear Data Structure\bin\Debug\net8.0\Lab 1 – Generics & Linear Data Structure.exe
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Lab 1 – Generics & Linear Data Structure\bin\Debug\net8.0\Lab 1 – Generics & Linear Data Structure.deps.json
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Lab 1 – Generics & Linear Data Structure\bin\Debug\net8.0\Lab 1 – Generics & Linear Data Structure.runtimeconfig.json
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Lab 1 – Generics & Linear Data Structure\bin\Debug\net8.0\Lab 1 – Generics & Linear Data Structure.dll
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Lab 1 – Generics & Linear Data Structure\bin\Debug\net8.0\Lab 1 – Generics & Linear Data Structure.pdb
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Lab 1 – Generics & Linear Data Structure\obj\Debug\net8.0\Lab 1 – Generics & Linear Data Structure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Lab 1 – Generics & Linear Data Structure\obj\Debug\net8.0\Lab 1 – Generics & Linear Data Structure.AssemblyInfoInputs.cache
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Lab 1 – Generics & Linear Data Structure\obj\Debug\net8.0\Lab 1 – Generics & Linear Data Structure.AssemblyInfo.cs
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Lab 1 – Generics & Linear Data Structure\obj\Debug\net8.0\Lab 1 – Generics & Linear Data Structure.csproj.CoreCompileInputs.cache
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Lab 1 – Generics & Linear Data Structure\obj\Debug\net8.0\Lab 1 – Generics & Linear Data Structure.dll
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Lab 1 – Generics & Linear Data Structure\obj\Debug\net8.0\refint\Lab 1 – Generics & Linear Data Structure.dll
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Lab 1 – Generics & Linear Data Structure\obj\Debug\net8.0\Lab 1 – Generics & Linear Data Structure.pdb
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Lab 1 – Generics & Linear Data Structure\obj\Debug\net8.0\Lab 1 – Generics & Linear Data Structure.genruntimeconfig.cache
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Lab 1 – Generics & Linear Data Structure\obj\Debug\net8.0\ref\Lab 1 – Generics & Linear Data Structure.dll
+C:\Users\lynde\source\repos\Lab 1 – Generics & Linear Data Structure\Lab 1 – Generics & Linear Data Structure\bin\Debug\net8.0\Medals.csv

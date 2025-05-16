@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\lynde\\source\\repos\\Lab 1 \u2013 Generics \u0026 Linear Data Structure\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E11400-9675-4ABD-ACD1-C0DEE8ACC372}|Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Lab 1 \u2013 Generics \u0026 Linear Data Structure.csproj|c:\\users\\lynde\\source\\repos\\lab 1 \u2013 generics \u0026 linear data structure\\lab 1 \u2013 generics \u0026 linear data structure\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E11400-9675-4ABD-ACD1-C0DEE8ACC372}|Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Lab 1 \u2013 Generics \u0026 Linear Data Structure.csproj|solutionrelative:lab 1 \u2013 generics \u0026 linear data structure\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E11400-9675-4ABD-ACD1-C0DEE8ACC372}|Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Lab 1 \u2013 Generics \u0026 Linear Data Structure.csproj|c:\\users\\lynde\\source\\repos\\lab 1 \u2013 generics \u0026 linear data structure\\lab 1 \u2013 generics \u0026 linear data structure\\observablecoll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E11400-9675-4ABD-ACD1-C0DEE8ACC372}|Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Lab 1 \u2013 Generics \u0026 Linear Data Structure.csproj|solutionrelative:lab 1 \u2013 generics \u0026 linear data structure\\observablecoll.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C1E11400-9675-4ABD-ACD1-C0DEE8ACC372}|Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Lab 1 \u2013 Generics \u0026 Linear Data Structure.csproj|c:\\users\\lynde\\source\\repos\\lab 1 \u2013 generics \u0026 linear data structure\\lab 1 \u2013 generics \u0026 linear data structure\\athlete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C1E11400-9675-4ABD-ACD1-C0DEE8ACC372}|Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Lab 1 \u2013 Generics \u0026 Linear Data Structure.csproj|solutionrelative:lab 1 \u2013 generics \u0026 linear data structure\\athlete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597DF1FA-C59A-4B48-A1C8-07D5788B85A3}|Question2\\Question2.csproj|c:\\users\\lynde\\source\\repos\\lab 1 \u2013 generics \u0026 linear data structure\\question2\\athlete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597DF1FA-C59A-4B48-A1C8-07D5788B85A3}|Question2\\Question2.csproj|solutionrelative:question2\\athlete.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597DF1FA-C59A-4B48-A1C8-07D5788B85A3}|Question2\\Question2.csproj|c:\\users\\lynde\\source\\repos\\lab 1 \u2013 generics \u0026 linear data structure\\question2\\medaldriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597DF1FA-C59A-4B48-A1C8-07D5788B85A3}|Question2\\Question2.csproj|solutionrelative:question2\\medaldriver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{597DF1FA-C59A-4B48-A1C8-07D5788B85A3}|Question2\\Question2.csproj|c:\\users\\lynde\\source\\repos\\lab 1 \u2013 generics \u0026 linear data structure\\question2\\singlylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{597DF1FA-C59A-4B48-A1C8-07D5788B85A3}|Question2\\Question2.csproj|solutionrelative:question2\\singlylinkedlist.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 4,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "SinglyLinkedList.cs",
+              "DocumentMoniker": "C:\\Users\\lynde\\source\\repos\\Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Question2\\SinglyLinkedList.cs",
+              "RelativeDocumentMoniker": "Question2\\SinglyLinkedList.cs",
+              "ToolTip": "C:\\Users\\lynde\\source\\repos\\Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Question2\\SinglyLinkedList.cs",
+              "RelativeToolTip": "Question2\\SinglyLinkedList.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAATAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T23:22:58.687Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MedalDriver.cs",
+              "DocumentMoniker": "C:\\Users\\lynde\\source\\repos\\Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Question2\\MedalDriver.cs",
+              "RelativeDocumentMoniker": "Question2\\MedalDriver.cs",
+              "ToolTip": "C:\\Users\\lynde\\source\\repos\\Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Question2\\MedalDriver.cs",
+              "RelativeToolTip": "Question2\\MedalDriver.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAAgwCkAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T23:19:37.118Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Athlete.cs",
+              "DocumentMoniker": "C:\\Users\\lynde\\source\\repos\\Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Question2\\Athlete.cs",
+              "RelativeDocumentMoniker": "Question2\\Athlete.cs",
+              "ToolTip": "C:\\Users\\lynde\\source\\repos\\Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Question2\\Athlete.cs",
+              "RelativeToolTip": "Question2\\Athlete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T23:19:00.157Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Athlete.cs",
+              "DocumentMoniker": "C:\\Users\\lynde\\source\\repos\\Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Athlete.cs",
+              "RelativeDocumentMoniker": "Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Athlete.cs",
+              "ToolTip": "C:\\Users\\lynde\\source\\repos\\Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Athlete.cs",
+              "RelativeToolTip": "Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Athlete.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T22:37:04.573Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Main.cs",
+              "DocumentMoniker": "C:\\Users\\lynde\\source\\repos\\Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Main.cs",
+              "RelativeDocumentMoniker": "Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Main.cs",
+              "ToolTip": "C:\\Users\\lynde\\source\\repos\\Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Main.cs",
+              "RelativeToolTip": "Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Main.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T20:48:42.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ObservableColl.cs",
+              "DocumentMoniker": "C:\\Users\\lynde\\source\\repos\\Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Lab 1 \u2013 Generics \u0026 Linear Data Structure\\ObservableColl.cs",
+              "RelativeDocumentMoniker": "Lab 1 \u2013 Generics \u0026 Linear Data Structure\\ObservableColl.cs",
+              "ToolTip": "C:\\Users\\lynde\\source\\repos\\Lab 1 \u2013 Generics \u0026 Linear Data Structure\\Lab 1 \u2013 Generics \u0026 Linear Data Structure\\ObservableColl.cs",
+              "RelativeToolTip": "Lab 1 \u2013 Generics \u0026 Linear Data Structure\\ObservableColl.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-16T20:00:36.895Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
