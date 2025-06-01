@@ -12,8 +12,6 @@ public class Program
         map.Put("China", "Beijing");
         map.Put("Canada", "Ottawa");
 
-     
-
         Console.WriteLine("\nCapital of Japan: " + map.Get("Japan"));
 
         Console.WriteLine("\nRemoving Germany...");
