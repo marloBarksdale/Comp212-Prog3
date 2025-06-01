@@ -1,1 +1,11 @@
 /.metadata/
+# Ignore Visual Studio files
+.vs/
+*.user
+*.suo
+*.VC.db
+*.log
+*.obj
+*.exe
+bin/
+obj/
