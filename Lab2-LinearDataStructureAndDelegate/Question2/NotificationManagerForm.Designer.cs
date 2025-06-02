@@ -41,7 +41,7 @@
             btnManageSubscriptions.TabIndex = 0;
             btnManageSubscriptions.Text = "Manage Subscription";
             btnManageSubscriptions.UseVisualStyleBackColor = true;
-            btnManageSubscriptions.Click += this.btnManageSubscriptions_Click;
+            btnManageSubscriptions.Click += btnManageSubscriptions_Click;
             // 
             // btnPublishNotification
             // 
@@ -52,6 +52,7 @@
             btnPublishNotification.TabIndex = 1;
             btnPublishNotification.Text = "Publish Notification";
             btnPublishNotification.UseVisualStyleBackColor = true;
+            btnPublishNotification.Click += btnPublishNotification_Click;
             // 
             // btnExit
             // 
@@ -61,6 +62,7 @@
             btnExit.TabIndex = 2;
             btnExit.Text = "Exit";
             btnExit.UseVisualStyleBackColor = true;
+            btnExit.Click += btnExit_Click;
             // 
             // NotificationManagerForm
             // 
@@ -71,10 +73,13 @@
             Controls.Add(btnPublishNotification);
             Controls.Add(btnManageSubscriptions);
             Name = "NotificationManagerForm";
-            Text = "Form1";
-            Load += Form1_Load;
+            Text = "Notification Manager";
+            Load += NotificationManagerForm_Load;
             ResumeLayout(false);
         }
+
+
+
 
         #endregion
 

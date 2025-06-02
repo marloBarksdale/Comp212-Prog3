@@ -5,15 +5,29 @@ using System.Windows.Forms;
 
 namespace Question2
 {
-    public partial class ManageSubscriptionsForm : Form
+    public partial class ManagerSubscriptionForm : Form
     {
+       
         private List<SendViaEmail> emailList;
+
         private List<SendViaMobile> mobileList;
 
-        public delegate void SubscriptionChangedHandler();
-        public event SubscriptionChangedHandler? SubscriptionChanged;
+       
+        public event Action SubscriptionChanged;
 
-        public ManageSubscriptionsForm(List<SendViaEmail> emails, List<SendViaMobile> mobiles)
+
+
+        // Add fields for designer controls
+
+
+        public ManagerSubscriptionForm()
+        {
+            InitializeComponent();
+            emailList = new List<SendViaEmail>();
+            mobileList = new List<SendViaMobile>();
+        }
+
+        public ManagerSubscriptionForm(List<SendViaEmail> emails, List<SendViaMobile> mobiles)
         {
             InitializeComponent();
             emailList = emails;
@@ -50,7 +64,7 @@ namespace Question2
                 }
 
                 var emailSub = new SendViaEmail(email);
-                if (!emailList.Contains(emailSub))
+                if (!emailList.Exists(s => s.EmailAddress.Equals(email, StringComparison.OrdinalIgnoreCase)))
                 {
                     emailList.Add(emailSub);
                     subscribed = true;
@@ -71,7 +85,7 @@ namespace Question2
                 }
 
                 var smsSub = new SendViaMobile(mobile);
-                if (!mobileList.Contains(smsSub))
+                if (!mobileList.Exists(s => s.PhoneNumber == mobile))
                 {
                     mobileList.Add(smsSub);
                     subscribed = true;
@@ -88,8 +102,12 @@ namespace Question2
                 MessageBox.Show("Subscribed successfully.");
                 txtEmail.Clear();
                 txtSMS.Clear();
+                chkEmail.Checked = false;
+                chkSMS.Checked = false;
             }
         }
+
+        
 
         private void btnUnsubscribe_Click(object sender, EventArgs e)
         {
@@ -97,10 +115,11 @@ namespace Question2
 
             if (chkEmail.Checked)
             {
-                var email = new SendViaEmail(txtEmail.Text.Trim());
-                if (emailList.Contains(email))
+                string email = txtEmail.Text.Trim();
+                var existing = emailList.Find(s => s.EmailAddress.Equals(email, StringComparison.OrdinalIgnoreCase));
+                if (existing != null)
                 {
-                    emailList.Remove(email);
+                    emailList.Remove(existing);
                     unsubscribed = true;
                 }
                 else
@@ -111,10 +130,11 @@ namespace Question2
 
             if (chkSMS.Checked)
             {
-                var mobile = new SendViaMobile(txtSMS.Text.Trim());
-                if (mobileList.Contains(mobile))
+                string mobile = txtSMS.Text.Trim();
+                var existing = mobileList.Find(s => s.PhoneNumber == mobile);
+                if (existing != null)
                 {
-                    mobileList.Remove(mobile);
+                    mobileList.Remove(existing);
                     unsubscribed = true;
                 }
                 else

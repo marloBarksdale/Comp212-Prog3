@@ -1,6 +1,7 @@
-﻿namespace Question2
+﻿
+namespace Question2
 {
-    partial class ManagerSubscriptionForm
+    partial class ManagerSubscriptionForm  
     {
         /// <summary>
         /// Required designer variable.
@@ -11,7 +12,7 @@
         /// Clean up any resources being used.
         /// </summary>
         /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
-        protected override void Dispose(bool disposing)
+        protected override void Dispose(bool disposing) // Fix CS0115 by ensuring Dispose method matches the base class signature
         {
             if (disposing && (components != null))
             {
@@ -23,8 +24,7 @@
         #region Windows Form Designer generated code
 
         /// <summary>
-        /// Required method for Designer support - do not modify
-        /// the contents of this method with the code editor.
+        /// Required method for Designer support - do not modify the contents of this method with the code editor.
         /// </summary>
         private void InitializeComponent()
         {
@@ -49,6 +49,7 @@
             chkEmail.TabIndex = 0;
             chkEmail.Text = "Notification Sent by Email";
             chkEmail.UseVisualStyleBackColor = true;
+            chkEmail.CheckedChanged += chkEmail_CheckedChanged;
             // 
             // txtEmail
             // 
@@ -77,6 +78,7 @@
             chkSMS.TabIndex = 3;
             chkSMS.Text = "Notification Sent by SMS";
             chkSMS.UseVisualStyleBackColor = true;
+            chkSMS.CheckedChanged += chkSMS_CheckedChanged;
             // 
             // txtSMS
             // 
@@ -85,7 +87,6 @@
             txtSMS.Name = "txtSMS";
             txtSMS.Size = new Size(198, 23);
             txtSMS.TabIndex = 4;
-            txtSMS.TextChanged += txtSMS_TextChanged;
             // 
             // btnSubscribe
             // 
@@ -95,6 +96,7 @@
             btnSubscribe.TabIndex = 5;
             btnSubscribe.Text = "Subscribe";
             btnSubscribe.UseVisualStyleBackColor = true;
+            btnSubscribe.Click += btnSubscribe_Click;
             // 
             // btnUnsubscribe
             // 
@@ -104,6 +106,7 @@
             btnUnsubscribe.TabIndex = 6;
             btnUnsubscribe.Text = "Unsubscribe";
             btnUnsubscribe.UseVisualStyleBackColor = true;
+            btnUnsubscribe.Click += btnUnsubscribe_Click;
             // 
             // btnCancel
             // 
@@ -113,6 +116,7 @@
             btnCancel.TabIndex = 7;
             btnCancel.Text = "Cancel";
             btnCancel.UseVisualStyleBackColor = true;
+            btnCancel.Click += btnCancel_Click;
             // 
             // ManagerSubscriptionForm
             // 
@@ -128,10 +132,15 @@
             Controls.Add(txtEmail);
             Controls.Add(chkEmail);
             Name = "ManagerSubscriptionForm";
-            Text = "ManagerSubscriptionForm";
+            Text = "Manage Subscription";
             ResumeLayout(false);
             PerformLayout();
         }
+
+        //private void SuspendLayout()
+        //{
+        //    throw new NotImplementedException();
+        //}
 
         #endregion
 

@@ -20,7 +20,7 @@ namespace Question2
 
         private void btnManageSubscriptions_Click(object sender, EventArgs e)
         {
-            var manageForm = new ManageSubscriptionsForm(emailSubscribers, mobileSubscribers);
+            var manageForm = new ManagerSubscriptionForm(emailSubscribers, mobileSubscribers);
 
             // When subscribers change, update publish button
             manageForm.SubscriptionChanged += UpdatePublishButtonState;
@@ -43,5 +43,12 @@ namespace Question2
             // Enable publish button if there's at least one subscriber
             btnPublishNotification.Enabled = emailSubscribers.Count > 0 || mobileSubscribers.Count > 0;
         }
+
+
+        private void NotificationManagerForm_Load(object sender, EventArgs e)
+        {
+            // Your initialization code here
+        }
+
     }
 }
