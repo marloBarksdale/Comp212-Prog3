@@ -36,6 +36,7 @@ namespace Question2
             btnSubscribe = new Button();
             btnUnsubscribe = new Button();
             btnCancel = new Button();
+            lblPhoneError = new Label();
             SuspendLayout();
             // 
             // chkEmail
@@ -118,11 +119,23 @@ namespace Question2
             btnCancel.UseVisualStyleBackColor = true;
             btnCancel.Click += btnCancel_Click;
             // 
+            // lblPhoneError
+            // 
+            lblPhoneError.AutoSize = true;
+            lblPhoneError.ForeColor = Color.Red;
+            lblPhoneError.Location = new Point(243, 149);
+            lblPhoneError.Name = "lblPhoneError";
+            lblPhoneError.Size = new Size(87, 15);
+            lblPhoneError.TabIndex = 8;
+            lblPhoneError.Text = "Invalid number";
+            lblPhoneError.Visible = false;
+            // 
             // ManagerSubscriptionForm
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(516, 236);
+            Controls.Add(lblPhoneError);
             Controls.Add(btnCancel);
             Controls.Add(btnUnsubscribe);
             Controls.Add(btnSubscribe);
@@ -152,5 +165,6 @@ namespace Question2
         private Button btnSubscribe;
         private Button btnUnsubscribe;
         private Button btnCancel;
+        private Label lblPhoneError;
     }
 }
