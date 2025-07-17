@@ -1,0 +1,86 @@
+﻿<UserControl x:Class="OMS.Views.ListOrderDetailsView"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:vm="clr-namespace:OMS.ViewModels">
+
+    <UserControl.DataContext>
+        <vm:ListOrderDetailsViewModel />
+    </UserControl.DataContext>
+
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <!-- Basket Selection -->
+        <StackPanel Grid.Row="0" Margin="0,0,0,20">
+            <Label Content="Basket:" FontWeight="Bold" FontSize="14"/>
+            <ComboBox ItemsSource="{Binding Baskets}"
+                     SelectedItem="{Binding SelectedBasket}"
+                     Width="300" HorizontalAlignment="Left"
+                     Padding="8,5" FontSize="12">
+                <ComboBox.ItemTemplate>
+                    <DataTemplate>
+                        <TextBlock>
+                            <Run Text="{Binding Shopper.Email, FallbackValue='Unknown'}"/>
+                            <Run Text=" "/>
+                            <Run Text="{Binding IdBasket}"/>
+                        </TextBlock>
+                    </DataTemplate>
+                </ComboBox.ItemTemplate>
+            </ComboBox>
+        </StackPanel>
+
+        <!-- Basket Items DataGrid -->
+        <DataGrid Grid.Row="1" 
+                 ItemsSource="{Binding BasketItems}"
+                 AutoGenerateColumns="False"
+                 IsReadOnly="True"
+                 CanUserReorderColumns="False"
+                 CanUserResizeColumns="True"
+                 CanUserSortColumns="True"
+                 GridLinesVisibility="Horizontal"
+                 AlternatingRowBackground="#F5F5F5"
+                 HeadersVisibility="Column">
+
+            <DataGrid.Columns>
+                <DataGridTextColumn Header="Basket ID" 
+                                   Binding="{Binding IdBasket}" 
+                                   Width="80"/>
+
+                <DataGridTextColumn Header="BasketItem ID" 
+                                   Binding="{Binding IdBasketItem}" 
+                                   Width="110"/>
+
+                <DataGridTextColumn Header="Product ID" 
+                                   Binding="{Binding IdProduct}" 
+                                   Width="90"/>
+
+                <DataGridTextColumn Header="Product Name" 
+                                   Binding="{Binding ProductName}" 
+                                   Width="200"/>
+
+                <DataGridTextColumn Header="Unit Price" 
+                                   Binding="{Binding UnitPrice, StringFormat=C}" 
+                                   Width="100"/>
+
+                <DataGridTextColumn Header="Quantity" 
+                                   Binding="{Binding Quantity}" 
+                                   Width="80"/>
+            </DataGrid.Columns>
+
+            <DataGrid.ColumnHeaderStyle>
+                <Style TargetType="DataGridColumnHeader">
+                    <Setter Property="Background" Value="#4A90A4"/>
+                    <Setter Property="Foreground" Value="White"/>
+                    <Setter Property="FontWeight" Value="Bold"/>
+                    <Setter Property="Padding" Value="8,5"/>
+                    <Setter Property="BorderThickness" Value="0,0,1,0"/>
+                    <Setter Property="BorderBrush" Value="White"/>
+                </Style>
+            </DataGrid.ColumnHeaderStyle>
+
+        </DataGrid>
+    </Grid>
+</UserControl>
